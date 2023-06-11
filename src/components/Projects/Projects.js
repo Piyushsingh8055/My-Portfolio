@@ -39,7 +39,7 @@ function Projects() {
               imgPath={QUEUES}
               isBlog={false}
               title="Queue Implementation"
-              description="From here users can learn about do practice. Users can check one by one  how element delete one by from queue with visual. Users can learn about Push Pop of element.  they can know about WHAT ARE QUEUES, TYPES OF QUEUES, BASIC FEATURES OF QUEUES. They can do DEMO, PRACTICE & LEARN. It is helpfull for those who want to learn about Queue form basics. "
+              description="From here users can learn about do practice. Users can check one by one  how element delete one by from queue with visual. Users can learn about Push Pop of element.  they can know about WHAT ARE QUEUES, TYPES OF QUEUES, BASIC FEATURES OF QUEUES. They can do DEMO, PRACTICE & LEARN. It is helpful for those who want to learn about Queue form basics. "
               ghLink="https://github.com/Piyushsingh8055/Queue-Implementation"
               demoLink="https://queuepiyush.vercel.app/"
             />
