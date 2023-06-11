@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Piyush Singh </span>
             from <span className="purple"> Varanasi, India.</span>
-            <br />I am pursuing MCA in Computer Science in PES University,
+            <br />I am pursuing Master of Computer Applications in PES University,
             Bengaluru.
             <br />
             <br />
@@ -18,13 +18,16 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Cricket
+              <ImPointRight /> Playing Games
             </li>
             <li className="about-activity">
               <ImPointRight /> Watching movies
             </li>
             <li className="about-activity">
               <ImPointRight /> Listening Songs
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Learning New Skills 
             </li>
           </ul>
 
