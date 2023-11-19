@@ -5,6 +5,9 @@ import Particle from "../Particle";
 import pooja from "../../Assets/Projects/pooja.png";
 import QUEUES from "../../Assets/Projects/QUEUES.png";
 import hubnex from "../../Assets/Projects/Hubnex.png";
+import sidtech from "../../Assets/Projects/sidtech.png";
+import master11 from "../../Assets/Projects/mymaster11.png";
+
 // import foodorder from "../../Assets/Projects/food-order.png";
 
 function Projects() {
@@ -19,16 +22,44 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={master11}
+              isBlog={false}
+              title={<span className="purple">MyMaster11</span>}
+              description="MyMaster11 is a legal online fantasy sports gaming platform, recognized as a 'Game of Skill.' In this game, success is determined by the participants' skills, knowledge, and strategic choices, rather than luck. MyMaster11 offers services and contests in fantasy cricket, football, kabaddi, volleyball, basketball, and hockey. Users create their teams before matches, earning points based on players' real-life performances. The individual with the highest team score wins. MyMaster11's emphasis on skills and knowledge makes it a 100% legal and engaging fantasy sports platform."
+              ghLink="https://github.com/Piyushsingh8055/Vikrant-Dashboard"
+              demoLink="https://sidtech.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sidtech}
+              isBlog={false}
+              title={<span className="purple">Management Information System</span>}
+              description="For the frontend, we utilized React.js and Tailwind CSS, known for their flexibility and responsiveness. This combination not only makes our Management Information System (MIS) powerful but also ensures a user-friendly, intuitive, and engaging interface. Our backend is secure and scalable, built on the versatility of Node.js. APIs  seamless communication between the database and user interface, enhancing the overall user experience. For database management, we opted for Microsoft SQL Server (MSSQL), providing a reliable and efficient solution for handling the complexities of your business information."
+              ghLink="https://github.com/Piyushsingh8055/Vikrant-Dashboard"
+              demoLink="https://sidtech.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hubnex}
+              isBlog={false}
+              title={<span className="purple">Hubnex</span>}
+              description="During my internship, I served as a Frontend Developer on a project with Hubnex, a dynamic team of experienced professionals dedicated to supporting business success. At Hubnex, we recognize the uniqueness of each business and customize our services to address specific client needs. Hubnex is committed to delivering exceptional solutions. In my role, I honed my skills as a Frontend Developer, specializing in React.js for dynamic user interfaces and Tailwind CSS for efficient styling. This experience allowed me to contribute to the creation of engaging and responsive web applications. "
+              ghLink="https://github.com/Piyushsingh8055/hubnex_labs"
+              demoLink="https://hubnex.in/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pooja}
               isBlog={false}
-              title="Online Pooja Samagri"
-              description="Online Pooja samagri is a web application for the
-              worship product. This website is a platform where users
-              can purchase all the necessary items for performing
-              Hindu religious rituals and prayers from the convenience
-              of their own home. Here Customer can book priest for home worship also. Shopkeeper can sell there products. Online payment , Wallet. Security, Get mail on orders. "
+              title={<span className="purple">Online Pooja Samagri</span>}
+              description="Online Pooja Samagri is a cutting-edge web app with a user-friendly interface developed using React.js and Bootstrap. Users can easily purchase items for Hindu rituals online. The platform allows booking a priest for home worship, and shopkeepers can sell their products. 
+              On the backend, Node.js ensures a robust foundation, while MongoDB serves as the flexible and scalable database solution. This tech stack enables secure online payments and wallet transactions for user convenience and safety. Email notifications keep users informed about their orders, ensuring a reliable transaction process. "
               ghLink="https://github.com/Piyushsingh8055/E-COMMERCE-WEBSITE-Online-Pooja-Samagri-"
               demoLink="https://onlinepoojasamagri.vercel.app/"
             />
@@ -38,23 +69,14 @@ function Projects() {
             <ProjectCard
               imgPath={QUEUES}
               isBlog={false}
-              title="Queue Implementation"
-              description="From here users can learn about do practice. Users can check one by one  how element delete one by from queue with visual. Users can learn about Push Pop of element.  they can know about WHAT ARE QUEUES, TYPES OF QUEUES, BASIC FEATURES OF QUEUES. They can do DEMO, PRACTICE & LEARN. It is helpful for those who want to learn about Queue form basics. "
+              title={<span className="purple">Queue Implementation</span>}
+              description="Users can engage in hands-on learning and practice the fundamentals of queues on this platform. They can visually observe how elements are sequentially deleted from the queue, gaining practical insights into the Push and Pop operations. The frontend, skillfully developed using HTML, CSS, and JavaScript, ensures an interactive and visually appealing user interface. PHP is seamlessly integrated into the backend for server-side functionalities, and it's used in conjunction with JavaScript for connecting to the database. The platform provides comprehensive information about WHAT QUEUES ARE, TYPES OF QUEUES, and BASIC QUEUE FEATURES."
               ghLink="https://github.com/Piyushsingh8055/Queue-Implementation"
               demoLink="https://queuepiyush.vercel.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={hubnex}
-              isBlog={false}
-              title="HUBNEX"
-              description="In Internship I have worked on this project as Frontend Developer. Hubnex is a team of experienced professionals who are passionate about helping businesses succeed. They understand that every business is unique, and they tailor their services to meet the specific needs of each client.HUBNEX is a technology and business branding agency based in Gurugram, India. "
-              ghLink="https://github.com/Piyushsingh8055/hubnex_labs"
-              demoLink="https://hubnex.in/"
-            />
-          </Col>
+
         </Row>
       </Container>
     </Container>

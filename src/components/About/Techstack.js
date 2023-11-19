@@ -7,13 +7,14 @@ import {
   DiMongodb,
   DiGit,
   DiMysql,
-  DiBootstrap,DiJava,DiPython,DiHtml5
+  DiBootstrap,DiPython,DiHtml5
 } from "react-icons/di";
 import {
   SiCss3, SiTailwindcss,
-  SiExpress,SiC,
+  SiExpress,SiC,SiLaravel,SiJava
   
 } from "react-icons/si";
+
 
 function Techstack() {
   return (
@@ -22,7 +23,7 @@ function Techstack() {
         <SiC />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
@@ -32,6 +33,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLaravel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />

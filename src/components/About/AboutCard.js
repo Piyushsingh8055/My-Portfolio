@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Piyush Singh </span>
+            Hi Everyone, I am <span className="purple">Piyush Kumar Singh </span>
             from <span className="purple"> Bengaluru, India.</span>
             <br />
             <br /> 
@@ -16,7 +16,8 @@ function AboutCard() {
             <br />
             With my MCA degree, I have gained a strong foundation in various areas of computer science and applications, including programming, software development, database management, networking, and system analysis. This knowledge will be invaluable in pursuing a career in software engineering, application development, database administration, IT consulting, or research and development.
             <br />
-            <br />
+            As a skilled <span className="purple">Software Development Engineer (SDE)</span> with expertise in React.js, Angular, Next.js, and JavaScript, I have cultivated a profound understanding of these technologies. This proficiency empowers me to construct robust and scalable applications. I am a self-starter, quick learner, and adept problem-solver with a proven track record of delivering high-quality work in a timely manner.
+            <br /> <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
