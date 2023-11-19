@@ -28,8 +28,8 @@ function Projects() {
               isBlog={false}
               title={<span className="purple">MyMaster11</span>}
               description="MyMaster11 is a legal online fantasy sports gaming platform, recognized as a 'Game of Skill.' In this game, success is determined by the participants' skills, knowledge, and strategic choices, rather than luck. MyMaster11 offers services and contests in fantasy cricket, football, kabaddi, volleyball, basketball, and hockey. Users create their teams before matches, earning points based on players' real-life performances. The individual with the highest team score wins. MyMaster11's emphasis on skills and knowledge makes it a 100% legal and engaging fantasy sports platform."
-              ghLink="https://github.com/Piyushsingh8055/Vikrant-Dashboard"
-              demoLink="https://sidtech.vercel.app/"
+              ghLink="https://www.mymaster11.com/"
+              demoLink="https://mymaster11.com/?invite_code=Rolex"
             />
           </Col>
 
