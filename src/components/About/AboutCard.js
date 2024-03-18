@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> Bengaluru, India.</span>
             <br />
             <br /> 
-            I have completed my <span className="purple">MCA( Master of Computer Applications) </span> from  <span className="purple">PES University</span> in Bengaluru. It is a significant accomplishment, and I am proud of my achievement.
+            I have completed my <span className="purple">MCA (Master of Computer Applications) </span> from  <span className="purple">PES University</span> in Bengaluru. It is a significant accomplishment, and I am proud of my achievement.
             <br />
             With my MCA degree, I have gained a strong foundation in various areas of computer science and applications, including programming, software development, database management, networking, and system analysis. This knowledge will be invaluable in pursuing a career in software engineering, application development, database administration, IT consulting, or research and development.
             <br />
