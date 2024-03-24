@@ -6,8 +6,9 @@ import { Link } from "react-router-dom";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
+  AiOutlineContacts,
 } from "react-icons/ai";
+import { GiSkills } from "react-icons/gi"
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -60,7 +61,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <GiSkills style={{ marginBottom: "2px" }} /> Skillset
               </Nav.Link>
             </Nav.Item>
 
@@ -84,6 +85,15 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact me
               </Nav.Link>
             </Nav.Item>
 
