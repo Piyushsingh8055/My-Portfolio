@@ -9,8 +9,7 @@ const Contact = () => {
   const [done, setDone] = useState(false)
   const [notDone, setNotDone] = useState(false)
   const [formData, setFormData] = useState({});
-    const [errorMessage, setErrorMessage] = useState('');
-
+    const [ setErrorMessage] = useState('');
     const handleChange = (e) => {
       setFormData({...formData, [e.target.name] : e.target.value})
       setDone(false)
